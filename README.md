@@ -4,7 +4,7 @@ Hangout Planner is a simple Java application for scheduling hangout times with y
 
 This README will guide you on how to set up and use the project.
 
-Setup
+## Setup
 Download SQL Connector Jar:
 
 Before you begin, you'll need to add the SQL Connector JAR file to your project in your preferred IDE, such as IntelliJ IDEA.
@@ -19,7 +19,7 @@ Under Project Settings, select Modules.
 
 Click on the Dependencies tab and add the downloaded JAR file.
 
-Configure Database Connection:
+## Configure Database Connection:
 
 Open the DBConnection.java file and ensure that you set the correct database URL for your MySQL database. Also, make sure you have created a MySQL database with the required tables.
 
@@ -27,14 +27,14 @@ private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/your_dat
 
 Replace your_database_name with the name of your MySQL database.
 
-Run SQL Queries:
+## Run SQL Queries:
 
 Execute the SQL queries provided in the hangout-planner.sql file to set up the necessary database tables and default users. You can use a SQL command-line interface or a database management tool of your choice to run these queries.
 
 
 source path_to_file/hangout-planner.sql;
 
-Usage
+## Usage
 
 The project includes four default users with email user1@gmail.com and passwords from user1 to user4. You can use these users to log in and test the application.
 

@@ -29,10 +29,10 @@ Replace your_database_name with the name of your MySQL database.
 
 Run SQL Queries:
 
-Execute the SQL queries provided in the database_queries.sql file to set up the necessary database tables and default users. You can use a SQL command-line interface or a database management tool of your choice to run these queries.
+Execute the SQL queries provided in the hangout-planner.sql file to set up the necessary database tables and default users. You can use a SQL command-line interface or a database management tool of your choice to run these queries.
 
 
-source path_to_file/database_queries.sql;
+source path_to_file/hangout-planner.sql;
 
 Usage
 

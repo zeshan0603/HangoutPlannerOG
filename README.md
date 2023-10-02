@@ -1,4 +1,4 @@
-Hangout Planner
+# HANGOUT PLANNER
 
 Hangout Planner is a simple Java application for scheduling hangout times with your friends. It allows you to add, update, and generate the best meeting times based on your availability. 
 
